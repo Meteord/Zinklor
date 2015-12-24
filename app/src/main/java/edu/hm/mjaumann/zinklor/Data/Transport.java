@@ -1,9 +1,11 @@
 package edu.hm.mjaumann.zinklor.Data;
 
+import java.io.Serializable;
+
 /**
  * Created by Michael on 14.11.2015.
  */
-public class Transport {
+public class Transport implements Serializable {
     private int einheiten;
     private int rohstoffe;
 
@@ -14,6 +16,14 @@ public class Transport {
 
     public int getEinheiten() {
         return einheiten;
+    }
+
+    @Override
+    public String toString() {
+        return "Transport{" +
+                "einheiten=" + einheiten +
+                ", rohstoffe=" + rohstoffe +
+                '}';
     }
 
     public int getRohstoffe() {

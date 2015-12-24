@@ -1,4 +1,4 @@
-package edu.hm.mjaumann.zinklor.Data;
+package edu.hm.mjaumann.zinklor;
 
 import android.content.res.Configuration;
 import android.os.Bundle;

@@ -1,9 +1,11 @@
 package edu.hm.mjaumann.zinklor.Data;
 
+import java.io.Serializable;
+
 /**
  * Created by Michael on 14.11.2015.
  */
-public class Erforschung {
+public class Erforschung implements Serializable {
     private String name;
     private int id;
     private String auswirkung;

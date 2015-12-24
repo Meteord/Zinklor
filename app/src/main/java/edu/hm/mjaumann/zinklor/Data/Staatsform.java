@@ -1,9 +1,11 @@
 package edu.hm.mjaumann.zinklor.Data;
 
+import java.io.Serializable;
+
 /**
  * Created by Michael on 14.11.2015.
  */
-public class Staatsform {
+public class Staatsform implements Serializable{
     private String bringt;
     private String name;
 

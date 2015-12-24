@@ -1,6 +1,8 @@
 package edu.hm.mjaumann.zinklor.Data;
 
-public class Einheit {
+import java.io.Serializable;
+
+public class Einheit implements Serializable {
     private String name;
     private String abkrzg;
     private Kosten kosten;

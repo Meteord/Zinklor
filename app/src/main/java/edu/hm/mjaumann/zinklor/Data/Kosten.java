@@ -1,12 +1,24 @@
 package edu.hm.mjaumann.zinklor.Data;
 
 
-public class Kosten {
+import java.io.Serializable;
+
+public class Kosten implements Serializable{
     private int Holz;
     private int Gold;
     private int Mana;
 
     private int Stein;
+
+    @Override
+    public String toString() {
+        return "Kosten{" +
+                "Holz=" + Holz +
+                ", Gold=" + Gold +
+                ", Mana=" + Mana +
+                ", Stein=" + Stein +
+                '}';
+    }
 
     public Kosten(int holz, int gold, int mana, int stein) {
 
